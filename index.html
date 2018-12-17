@@ -1,0 +1,50 @@
+<html>
+    <head>
+      <title>Arcade-Case</title>
+      <link rel="stylesheet" href="styles/main.css">
+      <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    </head>
+    <body onresize="resizeContainer()">
+        <div id="container">
+          <div class="cabinetTop">
+            <div class="left"></div>
+            <div class="light">
+              <span class="arcade">arcade</span>
+            </div>
+            <div class="right"></div>
+          </div>
+          <div class="topShadow"></div>
+          <div class="screenContainer">
+            <div class="screenBorder">
+              <div class="screen">
+                <div id="games" class="games">
+                  <!-- generate games array here -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="controlArea"></div>
+          <div class="controlContainer">
+             <div class="left set">
+               <div class="joyStickWrapper">
+                  <div class="joystick"></div>
+               </div>
+                <div class="button purple"></div>
+                <div class="button blue"></div>
+                <div class="button yellow"></div>
+                <div class="button green"></div>
+             </div>
+             <div class="right set">
+                <div class="joyStickWrapper">
+                    <div class="joystick"></div>
+                 </div>
+                <div class="button blue"></div>
+                <div class="button purple"></div>
+                <div class="button green"></div>
+                <div class="button yellow"></div>
+             </div>
+          </div>
+        </div>
+    </body>
+    <script src="scripts/main.js"></script>
+</html>

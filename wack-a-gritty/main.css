@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Score';
+  src: url('fonts/digital_counter_7.ttf')  format('truetype');
+}
+body {
+  cursor: none;
+}
+.container {
+  width: 1280px;
+  height: 720px;
+  background: url('images/ice.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: none;
+}
+.container>.board {
+  height: 130px;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #191919;
+}
+.container>.board>#clock>.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+}
+.container>.board>#score>.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.container>.board>#score.success>.text {
+  color: #30ff00;
+}
+.container>.board>#score.alert>.text {
+  color: #ff0000;
+}
+.container>.board>#score {
+  font-family: Score;
+  font-size: 52px;
+  height: 100px;
+  width: 150px;
+  top: 15px;
+  right: 12.5px;
+  position: absolute;
+  float: right;
+  z-index: 1;
+  background-color: rgb(89, 89, 89);
+}
+.container>.board>#clock {
+  font-family: Score;
+  font-size: 52px;
+  height: 100px;
+  width: 150px;
+  top: 15px;
+  left: 12.5px;
+  position: absolute;
+  float: left;
+  z-index: 1;
+  background-color: rgb(89, 89, 89);
+}
+.container>#holes {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -95%);
+  width: 1200px;
+  height: 500px;
+}
+.container>#holes>.hole {
+  margin: 25px 100px;
+  position: relative;
+  background: url('images/ice-hole-8bit.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 120px;
+  float: left;
+}
+.container>#holes>.hole>.gritty {
+  width: 150px;
+  height: 115px;
+  overflow: hidden;
+  top: -76px;
+  left: 20px;
+  position: absolute;
+}
+.container>#holes>.hole>.giroux {
+  width: 150px;
+  height: 115px;
+  overflow: hidden;
+  top: -76px;
+  left: 20px;
+  position: absolute;
+}
+.container>#holes>.hole>.gritty>img {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  transition: top .1s linear;
+}
+.container>#holes>.hole>.giroux>img {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  transition: top .1s linear;
+}
+.container>#holes>.hole>.gritty.show>img,
+.container>#holes>.hole>.giroux.show>img {
+  top: 0
+}

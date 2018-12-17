@@ -1,0 +1,540 @@
+/* FONTS */
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: "normal";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #DB3C26;
+  font-family: "XfinityStandard";
+  font-size: 18px;
+  cursor: none;
+}
+
+#container {
+  background-color: var(--color-onyx);
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: scale(1) translate(-50%, -50%);
+  transform-origin: 0% 0%;
+  cursor: none;
+}
+
+.cabinetTop {
+  width: 745px;
+  height: 145px;
+  background: #898989;
+  position: relative;
+}
+
+.cabinetTop>.left,
+.cabinetTop>.right {
+  width: 33px;
+  height: 144px;
+  position: absolute;
+  background-color: #AAAAAA;
+}
+
+.cabinetTop>.left {
+  left: 0;
+}
+
+.cabinetTop>.right {
+  right: 0;
+}
+
+.cabinetTop>.light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 655px;
+  height: 125px;
+}
+
+.cabinetTop>.light>.left,
+.cabinetTop>.light>.right {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: transparent
+}
+
+.cabinetTop>.light>.arcade {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  font-size: 75px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.topShadow {
+  background: #393939;
+  height: 80px;
+  width: 653px;
+  position: relative;
+  left: 46px;
+  top: 5px;
+  transform: perspective(9px) rotateX(-1.6deg);
+}
+
+.screenContainer {
+  background: #393939;
+  width: 579px;
+  height: 407px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: relative;
+  z-index: -2;
+}
+
+.screenContainer>.screenBorder {
+  background: #9EBFD1;
+  width: 497px;
+  height: 400px;
+  transform: perspective(25px) rotateX(1deg);
+  position: absolute;
+  top: -25px;
+  left: 41px;
+}
+
+.screenContainer>.screenBorder>.screen {
+  background: #343A56;
+  width: 463px;
+  height: 375px;
+  position: absolute;
+  left: 16px;
+  top: 15px;
+  overflow: hidden;
+}
+.screenContainer>.screenBorder>.screen>.marquee {
+  background: #1F1F1F;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  white-space: nowrap
+}
+.marquee .text {
+  color: #008F43;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11px;
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  /* overflow: hidden; */
+  transform: translateX(600px);
+  animation: marquee 25s linear infinite;
+  /* animation-delay: 12.5s; */
+}
+
+.marquee .text.text2 {
+  animation-delay: 12.5s;
+
+}
+.marquee .text.noRepeat {
+  animation: marqueeNoRepeat 12.5s linear 1;
+  display: block;
+  opacity: 0;
+  transform: translate(0,0) !important;
+}
+
+/* Make it move */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marqueeNoRepeat {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  99% {
+    transform: translateX(-98%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+
+  }
+}
+
+.screenContainer>.screenBorder>.screen>.games {
+  width: 5000px;
+  position: absolute;
+  top: 70%;
+  transform: translate(0, -70%);
+  left: 115px;
+  transition: left .3s linear;
+}
+
+.screenContainer>.screenBorder>.screen>.games>.game {
+  display: inline-block;
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9EBFD1;
+  padding: 10px;
+  text-align: center;
+  width: 215px;
+}
+
+.screenContainer>.screenBorder>.screen>.games>.game>.title {
+  font-size: px;
+  margin: 10px;
+}
+.screenContainer>.screenBorder>.screen>.games>.game>.logo {
+  margin: 10px 0;
+  width: 171px;
+  height: 211px;
+}
+.screenContainer>.screenBorder>.screen>.games>.game.selected>.logo {
+  transform: scale(1.1);
+  border: 5px solid #00D83C;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.screenContainer>.screenBorder>.screen>.games>.game>.highscore {
+  font-size: 12px;
+  margin: 10px;
+  opacity: .5 ;
+}
+.controlArea {
+  background: #AAAAAA;
+  height: 125px;
+  width: 640px;
+  position: relative;
+  margin-left: 54px;
+  top: -6px;
+  transform: perspective(20px) rotateX(2deg);
+  z-index: -1;
+}
+
+.controlContainer {
+  position: relative;
+  top: -100px;
+  z-index: 1;
+}
+
+.controlContainer>.left {
+  position: absolute;
+  left: 120px;
+  width: 250px;
+}
+
+.controlContainer>.right {
+  position: absolute;
+  left: 400px;
+  width: 250px;
+}
+
+.controlContainer .joystickWrapper.right {
+  margin-top: 53px;
+  margin-left: 12px;
+  transform: rotate(25deg);
+}
+
+.controlContainer .joystickWrapper.right .joystick::after {
+  transform: rotate(-25deg);
+}
+
+.controlContainer .joystickWrapper.left {
+  margin-top: -53px;
+  margin-left: -36px;
+  transform: rotate(-25deg);
+}
+
+.controlContainer .joystickWrapper.left .joystick::after {
+  transform: rotate(25deg);
+}
+
+.controlContainer .joystickWrapper.up {
+  margin-top: 11.1px;
+  margin-left: -27px;
+  transform: scale(.8);
+}
+
+.controlContainer .joystickWrapper.up .joystick::after {
+  transform: scale(1.228);
+}
+
+.controlContainer .joystickWrapper.down {
+  margin-top: -12.7px;
+  margin-left: 24px;
+  transform: scale(1.228);
+}
+
+.controlContainer .joystickWrapper.down .joystick::after {
+  transform: scale(.82);
+}
+
+.controlContainer .joystick::before {
+  position: absolute;
+  content: '';
+  background: #9E1D20;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  top: -40px;
+  left: -17px;
+}
+
+.controlContainer .joystick {
+  position: relative;
+  background: #D5CFCF;
+  height: 20px;
+  width: 10px;
+  top: 50px;
+}
+
+.controlContainer .joystick::after {
+  position: absolute;
+  content: '';
+  background: #000;
+  height: 20px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: -1;
+  top: 5px;
+  left: -24px;
+}
+
+.controlContainer .button:before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 50px;
+  border-radius: 50%;
+  top: -11px;
+}
+
+.controlContainer .button {
+  position: relative;
+  height: 11px;
+  width: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.controlContainer .button::after {
+  position: absolute;
+  content: '';
+  background: #000;
+  height: 20px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: -1;
+  top: -4px;
+  left: -5px;
+}
+
+.controlContainer .button.highlight {
+  transform: scaleY(.6);
+}
+
+.controlContainer .button.highlight::before {
+  top: -6px;
+}
+
+.controlContainer .button.highlight::after {
+  transform: scaleY(1.8);
+}
+
+.controlContainer .button.yellow,
+.controlContainer .button.yellow:before {
+  background: #E2AD27;
+}
+
+.controlContainer .button.yellow.highlight,
+.controlContainer .button.yellow.highlight:before {
+  background: #E2C98B;
+}
+
+.controlContainer .button.purple,
+.controlContainer .button.purple:before {
+  background: #644EA0;
+}
+
+.controlContainer .button.purple.highlight,
+.controlContainer .button.purple.highlight:before {
+  background: #9E88DA;
+}
+
+.controlContainer .button.green,
+.controlContainer .button.green:before {
+  background: #6FAF43;
+}
+
+.controlContainer .button.green.highlight,
+.controlContainer .button.green.highlight:before {
+  background: #B5E694;
+}
+
+.controlContainer .button.blue,
+.controlContainer .button.blue:before {
+  background: #3D8CCB;
+}
+
+.controlContainer .button.blue.highlight,
+.controlContainer .button.blue.highlight:before {
+  background: #84C4F8;
+}
+
+.controlContainer .left .button:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+.controlContainer .left .button:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+
+.controlContainer .left .button:nth-child(4) {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.controlContainer .left .button:nth-child(5) {
+  position: absolute;
+  top: 60px;
+  left: 140px;
+}
+
+.controlContainer .right .button:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+
+.controlContainer .right .button:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 140px;
+}
+
+.controlContainer .right .button:nth-child(4) {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.controlContainer .right .button:nth-child(5) {
+  position: absolute;
+  top: 60px;
+  left: 180px;
+}
+
+/* this will get restyled */
+a {
+  position: relative;
+
+}
+
+
+
+
+
+/* Make it move */
+/* @keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+} */

@@ -1,0 +1,27 @@
+{
+  "name": "x-arcade",
+  "version": "1.0.0",
+  "description": "a collection of small html5 games",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.comcast.com:XD-Prototype/X-Arcade.git"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "XD-Prototype",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.14.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.4.0",
+    "opn": "^5.4.0"
+  }
+}
